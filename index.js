@@ -1,4 +1,4 @@
-const add_comas = (n, system = "INT") => {
+const add_commas = (n, system = "INT") => {
     let str = n.toString();
     let regex;
 
@@ -8,7 +8,11 @@ const add_comas = (n, system = "INT") => {
         case "INT": regex = /\B(?=(\d{3})+(?!\d))/g;
     }
 
-    return str.replace(regex, ',');
+    let spl = n % 1 != 0 ? str.split('.') : str;
+
+    let number = n % 1 != 0 ? spl[0].replace(regex, ',') + '.' + spl[1] : str.replace(regex, ',');
+
+    return number;
 }
 
-module.exports = add_comas;
+module.exports = add_commas;
