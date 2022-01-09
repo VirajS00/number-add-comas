@@ -1,5 +1,5 @@
-# number-add-comas
-This is a simple npm package to add comas to numbers in either the international number system or the Indian number system.
+# number-add-commas
+This is a simple npm package to add commas to numbers in either the international number system or the Indian number system.
 
 ## How to use?
 ```js

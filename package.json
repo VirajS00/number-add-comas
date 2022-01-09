@@ -1,5 +1,5 @@
 {
-  "name": "number-add-comas",
+  "name": "number-add-commas",
   "version": "1.0.0",
   "description": "This is a simple npm package to add comas to numbers in either the international number system or the Indian number system.",
   "main": "index.js",
