@@ -1,0 +1,24 @@
+{
+  "name": "number-add-comas",
+  "version": "1.0.0",
+  "description": "This is a simple npm package to add comas to numbers in either the international number system or the Indian number system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirajS00/number-add-comas.git"
+  },
+  "keywords": [
+    "international-number-system",
+    "indian-number-system",
+    "add-comas"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VirajS00/number-add-comas/issues"
+  },
+  "homepage": "https://github.com/VirajS00/number-add-comas#readme"
+}
