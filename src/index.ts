@@ -10,9 +10,9 @@ export const add_commas = ({ n, system }: add_commas_args): string => {
 			? /\B(?=(\d{2})+.(?!(\d{1})))+(?=(\d{2})+(?!(\d{3})))/g
 			: /\B(?=(\d{3})+(?!\d))/g;
 
-	let spl = n % 1 != 0 ? str.split(".") : str;
+	const spl = n % 1 != 0 ? str.split(".") : str;
 
-	let number =
+	const number =
 		n % 1 != 0
 			? spl[0].replace(regex, ",") + "." + spl[1]
 			: str.replace(regex, ",");
