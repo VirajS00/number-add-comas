@@ -1,6 +1,6 @@
 interface add_commas_args {
 	n: number;
-	system: "IND" | "INT";
+	system?: "IND" | "INT";
 }
 
 export const add_commas = ({ n, system }: add_commas_args): string => {
