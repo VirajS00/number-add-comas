@@ -1,9 +1,4 @@
-interface add_commas_args {
-	n: number;
-	system?: "IND" | "INT";
-}
-
-export const add_commas = ({ n, system }: add_commas_args): string => {
+export const add_commas = (n: number, system: "IND" | "INT"): string => {
 	const str = n.toString();
 	const regex: RegExp =
 		system === "IND"
