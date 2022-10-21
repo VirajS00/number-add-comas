@@ -1,4 +1,4 @@
-export const add_commas = (n: number, system: "IND" | "INT"): string => {
+export const addComas = (n: number, system: "IND" | "INT"): string => {
 	const str = n.toString();
 	const regex: RegExp =
 		system === "IND"

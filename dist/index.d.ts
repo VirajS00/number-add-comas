@@ -1,1 +1,1 @@
-export declare const add_commas: (n: number, system: "IND" | "INT") => string;
+export declare const addComas: (n: number, system: "IND" | "INT") => string;
