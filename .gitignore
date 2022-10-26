@@ -3,3 +3,6 @@ node_modules
 
 # If using vscode
 .vscode
+
+# output folder
+dist

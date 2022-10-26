@@ -1,2 +1,0 @@
-!function(e,d){"object"==typeof exports&&"undefined"!=typeof module?d(exports):"function"==typeof define&&define.amd?define(["exports"],d):d((e||self).numberAddCommas={})}(this,function(e){e.addCommas=function(e,d){var n=e.toString(),o="IND"===d?/\B(?=(\d{2})+.(?!(\d{1})))+(?=(\d{2})+(?!(\d{3})))/g:/\B(?=(\d{3})+(?!\d))/g,t=e%1!=0?n.split("."):n;return e%1!=0?t[0].replace(o,",")+"."+t[1]:n.replace(o,",")}});
-//# sourceMappingURL=index.umd.js.map

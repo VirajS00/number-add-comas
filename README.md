@@ -8,7 +8,7 @@ This is a simple npm package to add commas to numbers in either the internationa
 // include the package
 import { addCommas } from "number-add-comas";
 
-addCommas(100000, system: "INT"); //this will return 100,000
+addCommas(100000, "INT"); //this will return 100,000
 
-addCommas(100000, system: "IND"); //this will return 1,00,000
+addCommas(100000, "IND"); //this will return 1,00,000
 ```
